@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1461613C20CD19FA0079CE19 /* URLExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1461613B20CD19FA0079CE19 /* URLExtensions.swift */; };
+		1461613F20CD20970079CE19 /* AwesomeDownloading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1461613E20CD20970079CE19 /* AwesomeDownloading.swift */; };
 		4A94B242DA96D18E282D4C48AF3E4D53 /* Pods-AwesomeDownloading_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E575738A2AD78A997EDB15A127CED855 /* Pods-AwesomeDownloading_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4C74BAA2E9EA6793289F40937486C098 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5A16F4CFC63FAC439D7A04994F579A03 /* Foundation.framework */; };
 		84AB9F2FE5F5BDEFB506C83AA1313329 /* AwesomeDownloading-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3037A5B7E2E18E25EFFA157517AF136E /* AwesomeDownloading-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -39,6 +41,8 @@
 		067B2B3FE1E1B3789231CB2C672A2815 /* Pods-AwesomeDownloading_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeDownloading_Example-umbrella.h"; sourceTree = "<group>"; };
 		06B9111B1D20D7A208601D93A9A67F8C /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		0EB0B3FDCF498FE9EA7063CE43015418 /* AwesomeDownloading-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeDownloading-dummy.m"; sourceTree = "<group>"; };
+		1461613B20CD19FA0079CE19 /* URLExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
+		1461613E20CD20970079CE19 /* AwesomeDownloading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AwesomeDownloading.swift; path = AwesomeDownloading/AwesomeDownloading.swift; sourceTree = "<group>"; };
 		18D3E7B800311B988F3DBD6B19303F9B /* Pods-AwesomeDownloading_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeDownloading_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2A0FBEDBB7D8E958AA8650FB5348E46B /* Pods-AwesomeDownloading_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AwesomeDownloading_Example.modulemap"; sourceTree = "<group>"; };
 		2C61CAF92CA9452B0C94DCF271E4C830 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -108,6 +112,14 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
+		1461613A20CD19D60079CE19 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				1461613B20CD19FA0079CE19 /* URLExtensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		404C2558067B35DF4C8D9E680E2250CA /* Pods-AwesomeDownloading_Example */ = {
 			isa = PBXGroup;
 			children = (
@@ -143,6 +155,8 @@
 		5385C3FCD58B9FD310EC16EBA08FCB6F /* AwesomeDownloading */ = {
 			isa = PBXGroup;
 			children = (
+				1461613E20CD20970079CE19 /* AwesomeDownloading.swift */,
+				1461613A20CD19D60079CE19 /* Extensions */,
 				F92B513AAD23F81355ACA31F1983ABF4 /* Pod */,
 				439D0852C4E0236A69B4DC5363B2FD04 /* Support Files */,
 			);
@@ -315,6 +329,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 1000;
+				TargetAttributes = {
+					44A010EF564FF612B80891331088B7E3 = {
+						LastSwiftMigration = 1000;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -348,7 +367,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1461613C20CD19FA0079CE19 /* URLExtensions.swift in Sources */,
 				B2324C811D0E214253F5DB6F1BCF8231 /* AwesomeDownloading-dummy.m in Sources */,
+				1461613F20CD20970079CE19 /* AwesomeDownloading.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -451,6 +472,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33585355C4E96376F552AFB1002C622E /* AwesomeDownloading.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -641,6 +663,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 33585355C4E96376F552AFB1002C622E /* AwesomeDownloading.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";

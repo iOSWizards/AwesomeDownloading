@@ -46,7 +46,7 @@
 		9FACED9372C7B6ABDA55CB9C /* Pods-AwesomeDownloading_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeDownloading_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeDownloading_Example/Pods-AwesomeDownloading_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		B1254BAC48BB864441770182 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		E96D0E1051FB941467DE59B4 /* Pods-AwesomeDownloading_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AwesomeDownloading_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-AwesomeDownloading_Tests/Pods-AwesomeDownloading_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		FF71D4419751C844794C6100 /* AwesomeDownloading.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AwesomeDownloading.podspec; path = ../AwesomeDownloading.podspec; sourceTree = "<group>"; };
+		FF71D4419751C844794C6100 /* AwesomeDownloading.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = AwesomeDownloading.podspec; path = ../AwesomeDownloading.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

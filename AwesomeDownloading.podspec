@@ -31,11 +31,12 @@ Download Files using this Library
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'AwesomeDownloading/Classes/**/*'
-  
-  # s.resource_bundles = {
-  #   'AwesomeDownloading' => ['AwesomeDownloading/Assets/*.png']
-  # }
-
+  s.ios.resources = ['AwesomeDownloading/Assets/Views/*.{xib,storyboard}', 'AwesomeMedia/Assets/Gilroy/*.{otf}', 'AwesomeMedia/Assets/Assets.xcassets', 'AwesomeMedia/Assets/Localizations/*.{lproj}']
+  s.ios.preserve_paths = 'AwesomeDownloading/Assets/*'
+  s.resource_bundles = {
+      'AwesomeDownloading' => ['AwesomeDownloading/Assets/**/*.{storyboard,xib,xcassets,json,imageset,png,otf,lproj}']
+  }
+ 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
