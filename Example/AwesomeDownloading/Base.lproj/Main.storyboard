@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14269.12" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="vXZ-lx-hvc">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14252.5"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -20,11 +20,50 @@
                     <view key="view" contentMode="scaleToFill" id="kh9-bI-dsS">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <progressView opaque="NO" contentMode="scaleToFill" verticalHuggingPriority="750" translatesAutoresizingMaskIntoConstraints="NO" id="fFM-I2-M0a">
+                                <rect key="frame" x="16" y="281.5" width="343" height="2"/>
+                            </progressView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="wordWrap" translatesAutoresizingMaskIntoConstraints="NO" id="huw-vR-PeL">
+                                <rect key="frame" x="16" y="403.5" width="343" height="41"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="24"/>
+                                <size key="titleShadowOffset" width="10" height="10"/>
+                                <state key="normal" title="Delete Media">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="deleteMediaButtonPressed:" destination="vXZ-lx-hvc" eventType="touchUpInside" id="LOQ-Or-tr7"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5Ez-zV-hlK">
+                                <rect key="frame" x="187.5" y="333.5" width="0.0" height="0.0"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="fFM-I2-M0a" secondAttribute="trailing" id="CSI-ba-L8n"/>
+                            <constraint firstItem="5Ez-zV-hlK" firstAttribute="centerX" secondItem="kh9-bI-dsS" secondAttribute="centerX" id="JAY-zN-pZk"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="huw-vR-PeL" secondAttribute="trailing" id="Krf-GV-x7s"/>
+                            <constraint firstItem="huw-vR-PeL" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="WmZ-B7-rkF"/>
+                            <constraint firstItem="huw-vR-PeL" firstAttribute="top" secondItem="5Ez-zV-hlK" secondAttribute="bottom" constant="70" id="dYM-YZ-iRZ"/>
+                            <constraint firstItem="5Ez-zV-hlK" firstAttribute="top" secondItem="fFM-I2-M0a" secondAttribute="bottom" constant="50" id="h3R-BS-bBR"/>
+                            <constraint firstItem="5Ez-zV-hlK" firstAttribute="centerY" secondItem="kh9-bI-dsS" secondAttribute="centerY" id="oYh-gW-NE6"/>
+                            <constraint firstItem="fFM-I2-M0a" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" id="poa-S4-a7f"/>
+                        </constraints>
                     </view>
+                    <connections>
+                        <outlet property="deleteMediaButton" destination="huw-vR-PeL" id="RWO-Ts-7cX"/>
+                        <outlet property="percentageLabel" destination="5Ez-zV-hlK" id="fZV-Vq-usS"/>
+                        <outlet property="progressBar" destination="fFM-I2-M0a" id="VXK-sg-ceh"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="x5A-6p-PRh" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="136.80000000000001" y="133.5832083958021"/>
         </scene>
     </scenes>
 </document>

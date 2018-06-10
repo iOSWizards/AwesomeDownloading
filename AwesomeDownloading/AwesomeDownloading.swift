@@ -122,38 +122,38 @@ extension AwesomeDownloading: URLSessionDelegate, URLSessionDownloadDelegate {
 
 extension UIViewController {
     
-//    public func confirmMediaDeletion(withUrl url: URL?, fromView: UIView? = nil, completion:@escaping (Bool) -> Void) {
-//        guard let downloadUrl = url else {
-//            completion(false)
-//            return
-//        }
-//        
-//        // we should delete the media.
-//        let alertController = UIAlertController(
-//            title: "availableoffline_delete_title" //.localized,
-//            message: "availableoffline_delete_message" //.localized,
-//            preferredStyle: .actionSheet)
-//        
-//        alertController.addAction(UIAlertAction(
-////            title: "availableoffline_delete_button_confirm".localized,
-//            style: .destructive,
-//            handler: { (action) in
-//                downloadUrl.url?.deleteOfflineFile { (success) in
-//                    DispatchQueue.main.async {
-//                        completion(success)
-//                    }
-//                }
-//        }))
-//        
-////        alertController.addAction(UIAlertAction(title: "availableoffline_delete_button_cancel".localized, style: .cancel, handler: { (action) in
-//        
-//        }))
-//        
-//        if let fromView = fromView {
-//            alertController.popoverPresentationController?.sourceView = fromView
-//            alertController.popoverPresentationController?.sourceRect = fromView.bounds
-//        }
-//        
-//        present(alertController, animated: true, completion: nil)
-//    }
+    public func confirmMediaDeletion(withUrl url: URL?, fromView: UIView? = nil, withTitle title: String, withMessage message: String, withConfirmButtonTitle confirmButtonTitle:String, withCancelButtonTitle cancelButtonTitle:String, completion:@escaping (Bool) -> Void) {
+        guard let downloadUrl = url else {
+            completion(false)
+            return
+        }
+        
+        // we should delete the media.
+        let alertController = UIAlertController(
+            title: title,
+            message: message,
+            preferredStyle: .actionSheet)
+        
+        alertController.addAction(UIAlertAction(
+            title: confirmButtonTitle,
+            style: .destructive,
+            handler: { (action) in
+                downloadUrl.deleteOfflineFile { (success) in
+                    DispatchQueue.main.async {
+                        completion(success)
+                    }
+                }
+        }))
+        
+        alertController.addAction(UIAlertAction(title: cancelButtonTitle, style: .cancel, handler: { (action) in
+        
+        }))
+    
+        if let fromView = fromView {
+            alertController.popoverPresentationController?.sourceView = fromView
+            alertController.popoverPresentationController?.sourceRect = fromView.bounds
+        }
+    
+        present(alertController, animated: true, completion: nil)
+    }
 }
