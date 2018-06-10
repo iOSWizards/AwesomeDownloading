@@ -1,0 +1,16 @@
+PODS:
+  - AwesomeDownloading (0.1.0)
+
+DEPENDENCIES:
+  - AwesomeDownloading (from `../`)
+
+EXTERNAL SOURCES:
+  AwesomeDownloading:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AwesomeDownloading: 3adac58dd6d0356d0f4308833fdf48af77a93c56
+
+PODFILE CHECKSUM: cf4e5b22c861a09227fa5020daa7bc694da9b36c
+
+COCOAPODS: 1.5.3
