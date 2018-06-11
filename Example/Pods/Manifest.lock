@@ -1,5 +1,5 @@
 PODS:
-  - AwesomeDownloading (0.1.0)
+  - AwesomeDownloading (0.1.1)
 
 DEPENDENCIES:
   - AwesomeDownloading (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  AwesomeDownloading: 3adac58dd6d0356d0f4308833fdf48af77a93c56
+  AwesomeDownloading: 2f1b2686927326a86eaf49d86c2941bf52c8286f
 
 PODFILE CHECKSUM: cf4e5b22c861a09227fa5020daa7bc694da9b36c
 

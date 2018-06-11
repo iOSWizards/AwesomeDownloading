@@ -1,9 +1,9 @@
 {
   "name": "AwesomeDownloading",
-  "version": "0.1.0",
-  "summary": "A short description of AwesomeDownloading.",
-  "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/emmanuelstroem/AwesomeDownloading",
+  "version": "0.1.1",
+  "summary": "Download Files and Show Progress View.",
+  "description": "Download Files using this Library",
+  "homepage": "https://github.com/iOSWizards/AwesomeDownloading",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,16 @@
     "emmanuelstroem": "emmanuel.stroem@gmail.com"
   },
   "source": {
-    "git": "https://github.com/emmanuelstroem/AwesomeDownloading.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/iOSWizards/AwesomeDownloading.git",
+    "tag": "0.1.1"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "10.0"
   },
-  "source_files": "AwesomeDownloading/Classes/**/*"
+  "source_files": "AwesomeDownloading/Classes/**/*",
+  "resource_bundles": {
+    "AwesomeDownloading": [
+      "AwesomeDownloading/Assets/**/*.{storyboard,xib,xcassets,json,imageset,png,otf,lproj}"
+    ]
+  }
 }
