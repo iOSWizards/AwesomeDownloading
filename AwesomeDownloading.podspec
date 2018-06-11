@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AwesomeDownloading'
-  s.version          = '0.1.0'
+  s.version          = '0.1.1'
   s.summary          = 'Download Files and Show Progress View.'
 
 # This description is used to generate tags and improve search results.
@@ -31,8 +31,6 @@ Download Files using this Library
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'AwesomeDownloading/Classes/**/*'
-  s.ios.resources = ['AwesomeDownloading/Assets/Views/*.{xib,storyboard}', 'AwesomeMedia/Assets/Gilroy/*.{otf}', 'AwesomeMedia/Assets/Assets.xcassets', 'AwesomeMedia/Assets/Localizations/*.{lproj}']
-  s.ios.preserve_paths = 'AwesomeDownloading/Assets/*'
   s.resource_bundles = {
       'AwesomeDownloading' => ['AwesomeDownloading/Assets/**/*.{storyboard,xib,xcassets,json,imageset,png,otf,lproj}']
   }
