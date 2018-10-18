@@ -46,15 +46,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		020A8A5E068138007844BFA03C4C08D5 /* Pods_AwesomeDownloading_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeDownloading_Example.framework; path = "Pods-AwesomeDownloading_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		020A8A5E068138007844BFA03C4C08D5 /* Pods_AwesomeDownloading_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeDownloading_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		031600102716995354069B5DEF6D46C5 /* AwesomeDownloading-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeDownloading-prefix.pch"; sourceTree = "<group>"; };
-		04386F3DFF7FB70ED09DE323CE56E808 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		04386F3DFF7FB70ED09DE323CE56E808 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		067B2B3FE1E1B3789231CB2C672A2815 /* Pods-AwesomeDownloading_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-AwesomeDownloading_Example-umbrella.h"; sourceTree = "<group>"; };
 		18D3E7B800311B988F3DBD6B19303F9B /* Pods-AwesomeDownloading_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-AwesomeDownloading_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		1D63FC962DCD6E0341405D97FEEDF8A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		1D63FC962DCD6E0341405D97FEEDF8A5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		2A0FBEDBB7D8E958AA8650FB5348E46B /* Pods-AwesomeDownloading_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-AwesomeDownloading_Example.modulemap"; sourceTree = "<group>"; };
 		2E2DCF24E32EF2C7970D0B20E6B03F49 /* Pods-AwesomeDownloading_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-AwesomeDownloading_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		30625F6C83AC174CA6A4D09840BC00C7 /* Pods_AwesomeDownloading_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_AwesomeDownloading_Tests.framework; path = "Pods-AwesomeDownloading_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		30625F6C83AC174CA6A4D09840BC00C7 /* Pods_AwesomeDownloading_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AwesomeDownloading_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		394AEEF2747637E4A5580F86305D02E3 /* AwesomeDownloading.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AwesomeDownloading.swift; path = AwesomeDownloading/Classes/AwesomeDownloading.swift; sourceTree = "<group>"; };
 		411CBD97958D9DD9416BFAE9DC3880A4 /* Pods-AwesomeDownloading_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeDownloading_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4247978A88D92C827A10601279EC93F5 /* Pods-AwesomeDownloading_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-AwesomeDownloading_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -64,12 +64,12 @@
 		667F78CAAC0943DCF138577E61708F39 /* Pods-AwesomeDownloading_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-AwesomeDownloading_Example-frameworks.sh"; sourceTree = "<group>"; };
 		6A509D844F6EB87338DF3B5FBBC22BEE /* AwesomeDownloading.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = AwesomeDownloading.xcconfig; sourceTree = "<group>"; };
 		7005166D59A2359B34D3F1E2356714C8 /* URLExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URLExtensions.swift; sourceTree = "<group>"; };
-		7755F86AE1A70F845E9DE79AEA8FB004 /* AwesomeDownloading.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = AwesomeDownloading.bundle; path = "AwesomeDownloading-AwesomeDownloading.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7755F86AE1A70F845E9DE79AEA8FB004 /* AwesomeDownloading.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AwesomeDownloading.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		833F01F2CDDD09EF0BDBA3D1F88698A6 /* AwesomeDownloading-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "AwesomeDownloading-dummy.m"; sourceTree = "<group>"; };
-		86803EC83467C294FC3A7EFD54E9A097 /* AwesomeDownloading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = AwesomeDownloading.framework; path = AwesomeDownloading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		86803EC83467C294FC3A7EFD54E9A097 /* AwesomeDownloading.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = AwesomeDownloading.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		970F7787F912DC5DCF2E0A50A72D13EF /* Pods-AwesomeDownloading_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-AwesomeDownloading_Example-dummy.m"; sourceTree = "<group>"; };
-		9737F3261BE345CA6E41DBE330C9853A /* AwesomeDownloading.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = AwesomeDownloading.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9737F3261BE345CA6E41DBE330C9853A /* AwesomeDownloading.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = AwesomeDownloading.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A83BF0F1C9692CA76CDABE615BF5ED81 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B2F4936B5605D817EEDEEF2074A432E2 /* AwesomeDownloading-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "AwesomeDownloading-umbrella.h"; sourceTree = "<group>"; };
 		B4F38BC3699627B6426F878EE69F6660 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -367,7 +367,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
-				LastUpgradeCheck = 0930;
+				LastUpgradeCheck = 1000;
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -595,6 +595,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Debug;
@@ -653,6 +654,8 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 4.2;
 				SYMROOT = "${SRCROOT}/../build";
 			};
 			name = Release;
@@ -717,7 +720,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
@@ -819,7 +822,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
