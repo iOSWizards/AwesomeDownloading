@@ -10,7 +10,7 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## Requirements
 - iOS 10 or Higher
-- Swift 4
+- Swift 4.2
 
 ## Installation
 
@@ -18,7 +18,7 @@ AwesomeDownloading is available through [CocoaPods](https://cocoapods.org). To i
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "AwesomeDownloading", git: 'https://github.com/iOSWizards/AwesomeDownloading.git', tag: '0.1.2'
+pod "AwesomeDownloading", git: 'https://github.com/iOSWizards/AwesomeDownloading.git', tag: '0.1.3'
 ```
 
 ## License
