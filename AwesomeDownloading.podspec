@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'AwesomeDownloading'
-  s.version          = '0.1.4'
+  s.version          = '0.1.5'
   s.summary          = 'Download Files and Show Progress View.'
 
 # This description is used to generate tags and improve search results.

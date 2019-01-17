@@ -94,7 +94,7 @@ extension AwesomeDownloading {
         downloadTask = nil
     }
     
-    func cancelDownload() {
+    public func cancelDownload() {
         downloadTask?.cancel()
         session?.invalidateAndCancel()
     }
