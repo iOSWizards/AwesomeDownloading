@@ -77,6 +77,8 @@ extension AwesomeDownloading {
     fileprivate func startDownloadSession(withUrl url: URL) {
         downloadUrl = url
         
+        cancelDownload()
+        
         let configuration = URLSessionConfiguration.default
         //let queue = NSOperationQueue.mainQueue()
         
@@ -90,6 +92,11 @@ extension AwesomeDownloading {
         session = nil
         downloadTask?.cancel()
         downloadTask = nil
+    }
+    
+    func cancelDownload() {
+        downloadTask?.cancel()
+        session?.invalidateAndCancel()
     }
 }
 
